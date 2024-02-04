@@ -8,6 +8,7 @@ import { NavbarComponent } from 'src/navbar/navbar.component';
 import { GithubEmailComponent } from 'src/github-email/github-email.component';
 import { MySkillsComponent } from 'src/my-skills/my-skills.component';
 import { PortfolioComponent } from 'src/portfolio/portfolio.component';
+import { JoinComponent } from 'src/join/join.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PortfolioComponent } from 'src/portfolio/portfolio.component';
     NavbarComponent,
     GithubEmailComponent,
     MySkillsComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    JoinComponent
     ],
   imports: [
     BrowserModule,

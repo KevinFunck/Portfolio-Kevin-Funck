@@ -11,6 +11,7 @@ import { PortfolioComponent } from 'src/portfolio/portfolio.component';
 import { JoinComponent } from 'src/join/join.component';
 import { SharkieComponent } from 'src/sharkie/sharkie.component';
 import { ContactComponent } from 'src/contact/contact.component';
+import { FooterComponent } from 'src/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactComponent } from 'src/contact/contact.component';
     PortfolioComponent,
     JoinComponent,
     SharkieComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
     ],
   imports: [
     BrowserModule,

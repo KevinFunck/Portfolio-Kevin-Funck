@@ -10,6 +10,7 @@ import { MySkillsComponent } from 'src/my-skills/my-skills.component';
 import { PortfolioComponent } from 'src/portfolio/portfolio.component';
 import { JoinComponent } from 'src/join/join.component';
 import { SharkieComponent } from 'src/sharkie/sharkie.component';
+import { ContactComponent } from 'src/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SharkieComponent } from 'src/sharkie/sharkie.component';
     MySkillsComponent,
     PortfolioComponent,
     JoinComponent,
-    SharkieComponent
+    SharkieComponent,
+    ContactComponent
     ],
   imports: [
     BrowserModule,

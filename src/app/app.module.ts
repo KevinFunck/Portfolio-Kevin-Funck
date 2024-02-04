@@ -7,6 +7,7 @@ import { HeadSectionComponent } from 'src/head-section/head-section.component';
 import { NavbarComponent } from 'src/navbar/navbar.component';
 import { GithubEmailComponent } from 'src/github-email/github-email.component';
 import { MySkillsComponent } from 'src/my-skills/my-skills.component';
+import { PortfolioComponent } from 'src/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MySkillsComponent } from 'src/my-skills/my-skills.component';
     HeadSectionComponent,
     NavbarComponent,
     GithubEmailComponent,
-    MySkillsComponent
+    MySkillsComponent,
+    PortfolioComponent
     ],
   imports: [
     BrowserModule,

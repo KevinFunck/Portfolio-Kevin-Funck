@@ -12,6 +12,8 @@ import { JoinComponent } from 'src/join/join.component';
 import { SharkieComponent } from 'src/sharkie/sharkie.component';
 import { ContactComponent } from 'src/contact/contact.component';
 import { FooterComponent } from 'src/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { FooterComponent } from 'src/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],

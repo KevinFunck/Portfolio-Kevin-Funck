@@ -9,6 +9,7 @@ import { GithubEmailComponent } from 'src/github-email/github-email.component';
 import { MySkillsComponent } from 'src/my-skills/my-skills.component';
 import { PortfolioComponent } from 'src/portfolio/portfolio.component';
 import { JoinComponent } from 'src/join/join.component';
+import { SharkieComponent } from 'src/sharkie/sharkie.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { JoinComponent } from 'src/join/join.component';
     GithubEmailComponent,
     MySkillsComponent,
     PortfolioComponent,
-    JoinComponent
+    JoinComponent,
+    SharkieComponent
     ],
   imports: [
     BrowserModule,
